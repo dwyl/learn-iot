@@ -20,17 +20,29 @@ An example is a 'Smart Home' which might consist of a thermometer, microprocesso
 * [Introduction to Raspberry Pi](https://www.raspberrypi.org/help/faqs/#introWhatIs)
 
 ## *How*?
-A detailed set of instructions on how to install NodeJS onto Raspberry Pi can be found [here](http://thisdavej.com/beginners-guide-to-installing-node-js-on-a-raspberry-pi/). The instructions in the link above goes into details of getting WiFi on Raspberry Pi 2, setting up Remote Desktop and Windows File Share too.
+A detailed set of instructions on how to install NodeJS onto Raspberry Pi can be found [here](http://thisdavej.com/beginners-guide-to-installing-node-js-on-a-raspberry-pi/). In addition to simple installation, the instructions in this link also covers getting WiFi on Raspberry Pi 2, setting up Remote Desktop and Windows File Share.
 
-To summarise just the basic points from this blog:
--
+In summary we need to know:
+(1) Equipment
+(2) Get Raspbian OS
+(3) Boot Raspberry Pi
+(4) Install NodeJS
 
+##### (1) Equipment:
+- Laptop with Windows/Linux/OS X
+- Micro SD card (8GB or more)
+- Micro SD - SD card adapter
+- Micro USB power supply
+- HDMI cable
+- Raspberry Pi 2 + USB WiFi adapter OR Raspberry Pi 3
 
-## Issues with setting up WiFi on raspberrypi
+##### (2) Get Raspbian OS:
+To do this, you'll need to download two things; _Raspbian OS_ (Raspberry Pi's official operating system) and _Etcher_.
 
-http://superuser.com/questions/413818/ipv6-address-not-setting
-https://www.reddit.com/r/raspberry_pi/comments/3s11vd/help_needed_to_connect_raspberrypi_to_wifi_with_a/
-http://raspberrypi.stackexchange.com/questions/38424/wifi-not-working-on-raspbian-jessie
-https://www.raspberrypi.org/forums/viewtopic.php?f=28&t=66656
-http://raspberrypihq.com/how-to-add-wifi-to-the-raspberry-pi/
-http://www.savagehomeautomation.com/projects/raspberry-pi-installing-the-edimax-ew-7811un-usb-wifi-adapte.html
+(1) Download the latest Raspbian OS: go to https://www.raspberrypi.org/downloads/raspbian/ and you'll get two options; click 'Download ZIP' of the Raspbian version that **doesn't mention "Lite"**.
+<img src="https://cloud.githubusercontent.com/assets/13470325/24296813/847e0872-1098-11e7-80bb-96a3e3e246c7.png" width="80%" style="display: block; margin: 0 auto;">
+
+(2) Download Etcher: go to https://etcher.io/ and click 'Download'
+<img src="https://cloud.githubusercontent.com/assets/13470325/24297158/9a6f1e90-1099-11e7-86ef-ca8acddaae3c.png" width="80%" style="display: block; margin: 0 auto;">
+
+(3) Insert your MicroSD card into your MicroSD - SD card adapter
