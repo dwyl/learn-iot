@@ -30,19 +30,29 @@ In summary we need to know:
 
 ##### (1) Equipment:
 - Laptop with Windows/Linux/OS X
-- Micro SD card (8GB or more)
-- Micro SD - SD card adapter
+- microSD card (8GB or more)
+- microSD - SD card adapter
 - Micro USB power supply
 - HDMI cable
+- Keyboard (USB)
+- Mouse (USB)
 - Raspberry Pi 2 + USB WiFi adapter OR Raspberry Pi 3
 
 ##### (2) Get Raspbian OS:
 To do this, you'll need to download two things; _Raspbian OS_ (Raspberry Pi's official operating system) and _Etcher_.
 
-(1) Download the latest Raspbian OS: go to https://www.raspberrypi.org/downloads/raspbian/ and you'll get two options; click 'Download ZIP' of the Raspbian version that **doesn't mention "Lite"**.
-<img src="https://cloud.githubusercontent.com/assets/13470325/24296813/847e0872-1098-11e7-80bb-96a3e3e246c7.png" width="80%" style="display: block; margin: 0 auto;">
+(1) Download the latest Raspbian OS: go to https://www.raspberrypi.org/downloads/raspbian/ and you'll get two options; click 'Download ZIP' of "Raspbian Jessie With Pixel" <img src="https://cloud.githubusercontent.com/assets/13470325/24296813/847e0872-1098-11e7-80bb-96a3e3e246c7.png" width="80%" style="display: block; margin: 0 auto;">
 
 (2) Download Etcher: go to https://etcher.io/ and click 'Download'
 <img src="https://cloud.githubusercontent.com/assets/13470325/24297158/9a6f1e90-1099-11e7-86ef-ca8acddaae3c.png" width="80%" style="display: block; margin: 0 auto;">
 
-(3) Insert your MicroSD card into your MicroSD - SD card adapter
+(3) Put your microSD card into your SD card adapter, and insert into your laptop.
+
+(4) Once Raspbian OS and Etcher have downloaded, open Etcher. You'll see something like the following open: .
+
+- Click 'Select image', and select the Raspbian OS file (.zip) that you just downloaded.
+- Click 'Select drive', and select your microSD/SD card.
+- (Make sure you've selected the right options above! Then) Click 'Flash!'; this will write the OS to the microSD. (Takes ~10mins)
+- Once this is complete, remove the microSD/SD from your laptop.
+
+(5) Take the microSD card out of the adapter, and put it into the Raspberry Pi. Connect the Keyboard and Mouse by USB. Connect the Raspberry Pi to a monitor (or TV) with an HDMI cable
